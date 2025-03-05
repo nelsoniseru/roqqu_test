@@ -1,0 +1,26 @@
+2025-03-04 21:15:18 [ERROR]: error
+2025-03-04 21:15:36 [ERROR]: error
+2025-03-05 05:31:14 [ERROR]: error
+2025-03-05 05:32:39 [ERROR]: error
+2025-03-05 05:49:57 [ERROR]: Error getting user: Error: User not found
+2025-03-05 05:50:43 [ERROR]: Error getting user: Error: User not found
+2025-03-05 05:50:45 [ERROR]: Error getting user: Error: User not found
+2025-03-05 05:52:49 [ERROR]: Error getting user: Error: User not found
+2025-03-05 05:53:45 [ERROR]: Error getting user: SequelizeDatabaseError: SQLITE_ERROR: no such column: NaN
+2025-03-05 10:21:40 [ERROR]: Error getting address: Error: Address not found
+2025-03-05 10:24:25 [ERROR]: Error: "street" is not allowed to be empty
+2025-03-05 10:25:47 [ERROR]: Error: "userId" is not allowed
+2025-03-05 11:21:57 [ERROR]: Error: "userId" is required
+2025-03-05 11:24:03 [ERROR]: Error: "userId" is required
+2025-03-05 11:28:03 [ERROR]: Error: "userId" is required
+2025-03-05 11:28:42 [ERROR]: Error deleting post: Error: Post not found
+2025-03-05 11:43:16 [ERROR]: Error getting posts: SequelizeEagerLoadingError: User is associated to Post using an alias. You've included an alias (user), but it does not match the alias(es) defined in your association (User).
+2025-03-05 11:47:03 [ERROR]: Error getting posts: SequelizeEagerLoadingError: User is associated to Post using an alias. You've included an alias (user), but it does not match the alias(es) defined in your association (User).
+2025-03-05 11:47:08 [ERROR]: Error getting posts: SequelizeEagerLoadingError: User is associated to Post using an alias. You've included an alias (user), but it does not match the alias(es) defined in your association (User).
+2025-03-05 11:47:35 [ERROR]: Error getting posts: SequelizeEagerLoadingError: User is associated to Post using an alias. You've included an alias (user), but it does not match the alias(es) defined in your association (User).
+2025-03-05 11:47:37 [ERROR]: Error getting posts: SequelizeEagerLoadingError: User is associated to Post using an alias. You've included an alias (user), but it does not match the alias(es) defined in your association (User).
+2025-03-05 11:48:16 [ERROR]: Error getting posts: SequelizeEagerLoadingError: User is associated to Post using an alias. You've included an alias (user), but it does not match the alias(es) defined in your association (User).
+2025-03-05 11:48:31 [ERROR]: Error getting posts: SequelizeEagerLoadingError: User is associated to Post using an alias. You've included an alias (user), but it does not match the alias(es) defined in your association (User).
+2025-03-05 11:48:52 [ERROR]: Error getting posts: SequelizeEagerLoadingError: User is associated to Post using an alias. You've included an alias (user), but it does not match the alias(es) defined in your association (User).
+2025-03-05 11:48:54 [ERROR]: Error getting posts: SequelizeEagerLoadingError: User is associated to Post using an alias. You've included an alias (user), but it does not match the alias(es) defined in your association (User).
+2025-03-05 12:24:58 [ERROR]: Error deleting post: Error: Post not found

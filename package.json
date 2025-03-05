@@ -1,0 +1,36 @@
+{
+  "name": "roqqu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "build": "tsc",
+    "migrate": "ts-node ./node_modules/.bin/sequelize db:migrate",
+    "migrate:undo": "ts-node ./node_modules/.bin/sequelize db:migrate:undo",
+    "migrate:make": "ts-node ./node_modules/.bin/sequelize migration:generate --name",
+    "start": "node dist/server.js",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@types/joi": "^17.2.3",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "nodemon": "^3.1.9",
+    "sequelize": "^6.37.6",
+    "sqlite3": "^5.1.7",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/hapi__joi": "^17.1.15",
+    "@types/joi": "^17.2.3",
+    "@types/node": "^22.13.9",
+    "@types/winston": "^2.4.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
