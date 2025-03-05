@@ -1,4 +1,3 @@
-// tsconfig.json (in /Applications/roqqu/)
 {
   "compilerOptions": {
     "target": "ES2018",
