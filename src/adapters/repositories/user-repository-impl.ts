@@ -24,4 +24,9 @@ export class UserRepositoryImpl implements UserRepository {
         });
         return newUser;
     }
+
+  async findByEmail(email: string): Promise<UserType | null> {
+      const user = await User.findOne({ where: { email } });
+      return user || null;
+}
 }

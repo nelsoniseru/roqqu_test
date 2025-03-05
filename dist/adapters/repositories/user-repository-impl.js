@@ -25,5 +25,9 @@ class UserRepositoryImpl {
         });
         return newUser;
     }
+    async findByEmail(email) {
+        const user = await user_1.default.findOne({ where: { email } });
+        return user || null;
+    }
 }
 exports.UserRepositoryImpl = UserRepositoryImpl;

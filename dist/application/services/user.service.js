@@ -21,6 +21,10 @@ class UserService {
         return user;
     }
     async createUser(userData) {
+        const existingUser = await this.userRepository.findByEmail(userData.email);
+        if (existingUser) {
+            throw new Error("A user with this email already exists");
+        }
         return this.userRepository.create(userData);
     }
 }

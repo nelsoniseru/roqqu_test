@@ -24,3 +24,27 @@
 2025-03-05 11:48:52 [ERROR]: Error getting posts: SequelizeEagerLoadingError: User is associated to Post using an alias. You've included an alias (user), but it does not match the alias(es) defined in your association (User).
 2025-03-05 11:48:54 [ERROR]: Error getting posts: SequelizeEagerLoadingError: User is associated to Post using an alias. You've included an alias (user), but it does not match the alias(es) defined in your association (User).
 2025-03-05 12:24:58 [ERROR]: Error deleting post: Error: Post not found
+2025-03-05 13:31:52 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:32:46 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:33:26 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:37:46 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:37:46 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:37:49 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:37:50 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:38:52 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:40:12 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:41:32 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:45:45 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:45:47 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:46:00 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:47:34 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:47:36 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:47:41 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:50:21 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:50:23 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:51:11 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:53:04 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:53:40 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:54:27 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:55:11 [ERROR]: Error creating user: SequelizeUniqueConstraintError: Validation error
+2025-03-05 13:55:56 [ERROR]: Error creating user: Error: A user with this email already exists

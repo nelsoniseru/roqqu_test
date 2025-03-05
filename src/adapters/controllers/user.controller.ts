@@ -68,6 +68,7 @@ export class UserController {
       res.status(200).json({ status: true, message: "user created successfully", user });
     } catch (error) {
       logger.error(`Error creating user: ${error}`);
+      console.log(error)
       res.status(400).json({ status: false, message: `${error}` });
 
     }

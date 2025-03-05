@@ -23,6 +23,10 @@ export class UserService {
   }
 
   async createUser(userData: Omit<User, 'id' | 'createdAt'>): Promise<User> {
+    const existingUser = await this.userRepository.findByEmail(userData.email);
+    if (existingUser) {
+     throw new Error("A user with this email already exists");
+    }
     return this.userRepository.create(userData);
   }
 }
